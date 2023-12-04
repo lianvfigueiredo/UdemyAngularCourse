@@ -6,18 +6,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
-import { MycompComponent } from './mycomp/mycomp.component';
-import { WarningalertComponent } from './warningalert/warningalert.component';
-import { SuccessalertComponent } from './successalert/successalert.component';
+import { SecondTaskComponent } from './second-task/second-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     ServersComponent,
-    MycompComponent,
-    WarningalertComponent,
-    SuccessalertComponent
+    SecondTaskComponent,
   ],
   imports: [
     BrowserModule,
