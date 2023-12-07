@@ -1,0 +1,7 @@
+<button 
+    class="btn btn-primary"
+    (click)="toogle()">Display Details</button>
+<p *ngIf="visible">Trying third task</p>
+<p *ngFor="let log of logs" 
+[ngStyle]="{background: log >= 5 ? 'blue' : null}"
+[ngClass]="{white: log >= 5}">{{ log }}</p>
